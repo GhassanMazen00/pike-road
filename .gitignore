@@ -1,0 +1,17 @@
+# Godot 4
+.godot/
+/android/
+*.tmp
+
+# Exports
+/export/
+/builds/
+*.pck
+
+# Downloaded source archives (unzip into assets/, keep the zips out of git)
+/_downloads/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
