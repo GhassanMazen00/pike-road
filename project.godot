@@ -12,12 +12,14 @@ config_version=5
 
 config/name="Pike Road"
 config/description="A first-person horror game."
-run/main_scene="res://scenes/living_room.tscn"
+run/main_scene="res://scenes/house/house.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [autoload]
 
 Settings="*res://scripts/settings.gd"
+Power="*res://scripts/power.gd"
+Sounds="*res://scripts/sounds.gd"
 
 [display]
 

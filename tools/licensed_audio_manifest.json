@@ -1,0 +1,242 @@
+﻿[
+    {
+        "name":  "door_open_haunted",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - HAUNTED DOORS/PM_HD_Designed_01 Doors, Old, Wooden, Scary, Horror, Open, Creeking.wav",
+        "mb":  1.9
+    },
+    {
+        "name":  "door_close_haunted",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - HAUNTED DOORS/PM_HD_Designed_45 Doors, Old, Wooden, Scary, Horror, Close, Impact, Trailer,.wav",
+        "mb":  5.1
+    },
+    {
+        "name":  "door_close_long_creak",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - HAUNTED DOORS/PM_HD_Source_39 Door, Close, Long Creak, Creaking.wav",
+        "mb":  3.6
+    },
+    {
+        "name":  "door_knob_turn",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - HAUNTED DOORS/PM_HD_Source_99 Door, Knob, Twist, Turn.wav",
+        "mb":  1.1
+    },
+    {
+        "name":  "steps_gravel_loop",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - STEPS Dirt \u0026 Gravel/PM_SDNG_Stereo_Walk_Seamless_Loop_1.wav",
+        "mb":  7.5
+    },
+    {
+        "name":  "step_dirt_46",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - STEPS Dirt \u0026 Gravel/PM_SDNG_Single_Step_Footstep_46.wav",
+        "mb":  0.5
+    },
+    {
+        "name":  "step_dirt_19",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 3of8/PMSFX - STEPS Dirt \u0026 Gravel/PM_SDNG_Single_Step_Footstep_19.wav",
+        "mb":  0.5
+    },
+    {
+        "name":  "drawers_close",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 6of8/Soundopolis - Household Doors HD/Nightstand_Modern_Drawers_Wood_Close_x6_Fienup_001.wav",
+        "mb":  9
+    },
+    {
+        "name":  "drawers_open",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 6of8/Soundopolis - Household Doors HD/Nightstand_Old_Drawers_Wood_Open_x11_Fienup_001.wav",
+        "mb":  19.3
+    },
+    {
+        "name":  "door_hinge_creaky",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 6of8/Soundopolis - Household Doors HD/Door Hinge 02_Creaky_x3_Fienup_001.wav",
+        "mb":  12.8
+    },
+    {
+        "name":  "cabinet_glass_close",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 6of8/Soundopolis - Household Doors HD/China Cabinet_Door_Wood with Glass_Close_x5_Fienup_001.wav",
+        "mb":  8
+    },
+    {
+        "name":  "fridge_open",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 1of8/3maze - Doors/small_fridge_open_001.wav",
+        "mb":  0.9
+    },
+    {
+        "name":  "microwave_door",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 1of8/3maze - Doors/microwave_door_open_001.wav",
+        "mb":  0.3
+    },
+    {
+        "name":  "door_lock",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 1of8/3maze - Doors/door_lock_007.wav",
+        "mb":  0.4
+    },
+    {
+        "name":  "door_big_close",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 1of8/3maze - Doors/door_big_close_001.wav",
+        "mb":  0.7
+    },
+    {
+        "name":  "knock_fist",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 1of8/Articulated Sounds - Ghosts Return/DOOR KNOCK Bathroom A, Wood, Heavy, Fist, Medium 01, From INSIDE.wav",
+        "mb":  2
+    },
+    {
+        "name":  "floorboard_creak",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Coll Anderson - House Library Add Ons/EFX CTM Floor Board Creak 03 A.wav",
+        "mb":  2.6
+    },
+    {
+        "name":  "door_bang",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Coll Anderson - House Library Add Ons/EFX INT Door Bang Wood Swing Broken 01 A.wav",
+        "mb":  9.4
+    },
+    {
+        "name":  "door_kick_rattle",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Coll Anderson - The Battle Crowd Collection Add on/EFX INT Kicking Wood Door Rattle 01.wav",
+        "mb":  21.4
+    },
+    {
+        "name":  "wood_floor_creak",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Matt Script - Squeaks \u0026 Creaks/Old wood floor_creak_creaking_slow_back and forth_04.wav",
+        "mb":  2.6
+    },
+    {
+        "name":  "doormat_scrape",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 6of8/Studio 23 - Ultimate Footstep Collection/S23_SFX_Footsteps_Extras_Doormat_Scrapes_01.wav",
+        "mb":  3
+    },
+    {
+        "name":  "room_tone_household",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%207of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 7of8/2496SoundEffects - Room Tones and Quiet Places Pack 1/Room Tone Light Household 2.wav",
+        "mb":  94.4
+    },
+    {
+        "name":  "room_tone_furnace",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%207of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 7of8/2496SoundEffects - Surround a Room 5.1- Stereo Room Tones/Room Tone Wall Heater Furnace, Pinging, Hiss _Stereo.wav",
+        "mb":  33.3
+    },
+    {
+        "name":  "night_crickets_owls",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Ivo Vicic - Natural ambiences vol.1/05 Crickets_owls_summer night.WAV",
+        "mb":  82.4
+    },
+    {
+        "name":  "radio_static",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%207of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 7of8/2496SoundEffects - Raw Noise Sound Effects 1/Radio Tuning Static Noise Collection 2.Wav",
+        "mb":  16.4
+    },
+    {
+        "name":  "pound_impatient",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 1of8/Airborne Sound - Household/Door,Wood,Bathroom,Exterior POV,Hit,Pound,x5,Impatient.wav",
+        "mb":  1.2
+    },
+    {
+        "name":  "heartbeat",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 1of8/Airborne Sound - Human/Heartbeat,Sound Design,Pulse,Throb,Steady,Accelerate,Panic,Fear.wav",
+        "mb":  15.7
+    },
+    {
+        "name":  "scream_male_covered",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 1of8/Airborne Sound - Human/Scream,Male,Mid Thirties,Mouth Covered,Gasps,Fast,Shriek,Panic.wav",
+        "mb":  3.9
+    },
+    {
+        "name":  "microwave_beeps",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%201of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 1of8/Airborne Sound - Kitchen/Microwave,Panasonic,The Genius,Keypad,Press,Beeps,Various.wav",
+        "mb":  6.4
+    },
+    {
+        "name":  "deadbolt",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 3of8/Eiravaein Works - Vaeyan IV/Cabin,frontdoor,deadbolt,lock,latch,thick,open,hyper.wav",
+        "mb":  0.3
+    },
+    {
+        "name":  "doorknob_creak",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%203of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 3of8/GainWalkers - Old Stuff/OLD STUFF_Doorknob_Creaking_05.wav",
+        "mb":  10.9
+    },
+    {
+        "name":  "breaker_switch",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 6of8/UberDuo - The Cabin Audio Playset/Switch,ElectricalPanelBreaker,On.wav",
+        "mb":  0.7
+    },
+    {
+        "name":  "cupboard_open",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 6of8/UberDuo ??? The Kitchen Audio Play Set/Door,Cupboard,Large,Open.wav",
+        "mb":  0.7
+    },
+    {
+        "name":  "steps_carpet_loop",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 6of8/The Sound Pack Tree - Footstep Loops/1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop.wav",
+        "mb":  8.3
+    },
+    {
+        "name":  "steps_wood_stairs_loop",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 6of8/The Sound Pack Tree - Footstep Loops/1879 - Footsteps - Wooden Stairs - Down - 80 fpm - Loop.wav",
+        "mb":  8.3
+    },
+    {
+        "name":  "steps_leaves",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%206of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 6of8/Sounds Visual - Footsteps on Leaves/FX3280 Walking Faster Leaves Foley Foosteps.wav",
+        "mb":  11.1
+    },
+    {
+        "name":  "tree_creaks",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 2of8/Discover Oregon - Wind and Storms/Creaks and Snaps 2017.03.20 - Gentle Tree Creaks.WAV",
+        "mb":  44.4
+    },
+    {
+        "name":  "crickets_quiet",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2018/Sonniss.com%20-%20GDC%202018%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2018 - Game Audio Bundle Part 2of8/Discover Oregon - Wilderness Crickets/Crickets quiet lime hill 1.WAV",
+        "mb":  16.5
+    },
+    {
+        "name":  "clock_023",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Federico Soler Fern??ndez - Effective Trailer Clocks/Clock 023.wav",
+        "mb":  4.4
+    },
+    {
+        "name":  "clock_070",
+        "url":  "https://ftpmirror.your.org/pub/misc/sonniss2019/Sonniss.com%20-%20GDC%202019%20-%20Game%20Audio%20Bundle%20Part%202of8.zip",
+        "member":  "Sonniss.com - GDC 2019 - Game Audio Bundle Part 2of8/Federico Soler Fern??ndez - Effective Trailer Clocks/Clock 070.wav",
+        "mb":  4.4
+    }
+]

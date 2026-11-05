@@ -22,7 +22,7 @@ func _ready() -> void:
 	_build_prompt()
 	_build_subtitle()
 	_build_pause_menu()
-	Settings.changed.connect(_apply_settings)
+	G.settings().changed.connect(_apply_settings)
 	_apply_settings()
 
 
@@ -64,9 +64,9 @@ func _next_subtitle() -> void:
 
 
 func _apply_settings() -> void:
-	_screen_fx.visible = Settings.film_grain
-	_grain_check.set_pressed_no_signal(Settings.film_grain)
-	_sens_slider.set_value_no_signal(Settings.mouse_sensitivity * 1000.0)
+	_screen_fx.visible = G.settings().film_grain
+	_grain_check.set_pressed_no_signal(G.settings().film_grain)
+	_sens_slider.set_value_no_signal(G.settings().mouse_sensitivity * 1000.0)
 
 
 func _build_screen_fx() -> void:
@@ -176,10 +176,10 @@ func _build_pause_menu() -> void:
 
 
 func _on_grain_toggled(on: bool) -> void:
-	Settings.film_grain = on
-	Settings.save()
+	G.settings().film_grain = on
+	G.settings().save()
 
 
 func _on_sensitivity_changed(value: float) -> void:
-	Settings.mouse_sensitivity = value / 1000.0
-	Settings.save()
+	G.settings().mouse_sensitivity = value / 1000.0
+	G.settings().save()

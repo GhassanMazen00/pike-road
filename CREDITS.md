@@ -1,46 +1,32 @@
 # Credits
 
 Every third-party asset in the game, where it came from and its license.
-Add a row whenever a file goes into `assets/`.
+Re-download everything with `tools/fetch_polyhaven.ps1` and `tools/fetch_licensed_audio.py` (see README section in DOWNLOADS.md).
 
-## Models (Poly Haven, CC0)
+## Models: Poly Haven (CC0)
 
-All from [polyhaven.com](https://polyhaven.com), glTF at 2K. License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+From [polyhaven.com](https://polyhaven.com), glTF. License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (no credit required; credited anyway).
+Folder: `assets/models/<id>/`. Link: `https://polyhaven.com/a/<id>`.
 
-| Asset | Folder | Link |
-|---|---|---|
-| Television 01 | `assets/models/Television_01/` | https://polyhaven.com/a/Television_01 |
-| Sofa 03 | `assets/models/sofa_03/` | https://polyhaven.com/a/sofa_03 |
-| Rockingchair 01 | `assets/models/Rockingchair_01/` | https://polyhaven.com/a/Rockingchair_01 |
-| Gothic Coffee Table | `assets/models/gothic_coffee_table/` | https://polyhaven.com/a/gothic_coffee_table |
-| Side Table Tall 01 | `assets/models/side_table_tall_01/` | https://polyhaven.com/a/side_table_tall_01 |
-| Vintage Wooden Drawer 01 | `assets/models/vintage_wooden_drawer_01/` | https://polyhaven.com/a/vintage_wooden_drawer_01 |
-| Vintage Grandfather Clock 01 | `assets/models/vintage_grandfather_clock_01/` | https://polyhaven.com/a/vintage_grandfather_clock_01 |
-| Vintage Oil Lamp | `assets/models/vintage_oil_lamp/` | https://polyhaven.com/a/vintage_oil_lamp |
-| Chandelier 01 | `assets/models/Chandelier_01/` | https://polyhaven.com/a/Chandelier_01 |
-| Vintage Cabinet 01 | `assets/models/vintage_cabinet_01/` | https://polyhaven.com/a/vintage_cabinet_01 |
-| Fancy Picture Frame 01 | `assets/models/fancy_picture_frame_01/` | https://polyhaven.com/a/fancy_picture_frame_01 |
-| Ornate Mirror 01 | `assets/models/ornate_mirror_01/` | https://polyhaven.com/a/ornate_mirror_01 |
+Furniture and props: Television_01, sofa_03, Rockingchair_01, gothic_coffee_table, side_table_tall_01, vintage_wooden_drawer_01,
+vintage_grandfather_clock_01, vintage_oil_lamp, Chandelier_01, vintage_cabinet_01, fancy_picture_frame_01, ornate_mirror_01,
+electric_stove, vintage_microwave, GothicBed_01, ClassicNightstand_01, GothicCabinet_01, vintage_day_bed, painted_wooden_cabinet,
+round_wooden_table_01, WoodenChair_01, dining_chair_02, WoodenTable_03, vintage_pocket_watch, CheeseBox_01, vintage_flashlight,
+bolt_action_rifle_7_62, power_box_01, painted_wooden_chair_01, hanging_picture_frame_02, Shelf_01, Ottoman_01,
+vintage_electric_kettle, tea_set_01, wooden_cutting_board, pot_enamel_01, jug_01, wine_bottles_01, vintage_suitcase,
+throw_pillows_01, rubber_duck_toy, worn_metal_rack, steel_frame_shelves_01, bench_vice_01, cardboard_box_01, old_military_crate,
+wooden_crate_01, Barrel_02, metal_toolbox, hatchet, crowbar_01, wooden_candlestick, pull_chain_light_socket, lightbulb_01,
+wooden_bookshelf_worn, book_encyclopedia_set_01, wooden_bucket_01, rusted_spade_01, Lantern_01, security_light,
+painted_wooden_nightstand, trashbag.
 
-## Textures (Poly Haven, CC0)
+## Textures: Poly Haven (CC0)
 
-Diffuse, normal (GL) and ARM maps at 2K. License: CC0 1.0.
-
-| Texture | Used for | Link |
-|---|---|---|
-| Decrepit Wallpaper | Walls | https://polyhaven.com/a/decrepit_wallpaper |
-| Old Wooden Floor 03 | Floor, door, trim | https://polyhaven.com/a/old_wooden_floor_03 |
-| White Plaster 02 | Ceiling | https://polyhaven.com/a/white_plaster_02 |
-| Quatrefoil Jacquard Fabric | Rug | https://polyhaven.com/a/quatrefoil_jacquard_fabric |
-| Weathered Plank Siding | Outside walls | https://polyhaven.com/a/weathered_plank_siding |
-| Wood Floor Deck | Porch | https://polyhaven.com/a/wood_floor_deck |
-| Forest Leaves 04 | Ground outside | https://polyhaven.com/a/forest_leaves_04 |
+decrepit_wallpaper, old_wooden_floor_03, white_plaster_02, quatrefoil_jacquard_fabric, weathered_plank_siding, wood_floor_deck,
+forest_leaves_04, old_linoleum_flooring_01, dirty_concrete, plastered_stone_wall, painted_plaster_wall.
 
 ## Audio
 
-| Sound | File(s) | Source | License |
-|---|---|---|---|
-| Footsteps, wood and carpet | `assets/audio/footsteps/wood/`, `assets/audio/footsteps/carpet/` | Kenney, [Impact Sounds](https://kenney.nl/assets/impact-sounds) | CC0 1.0 |
-
-Freesound sounds go here once downloaded (see `DOWNLOADS.md`). Record the author and license of each one.
-CC-BY sounds need the author's name in the game's credits.
+| Sound | Source | License |
+|---|---|---|
+| Fallback footsteps (wood, carpet) in `assets/audio/footsteps/` | Kenney, [Impact Sounds](https://kenney.nl/assets/impact-sounds) | CC0 1.0 |
+| Footsteps, doors, knocks, drawers, creaks, room tones, night ambience, static, heartbeat (`assets/audio/licensed/`, not in git) | [Sonniss GDC Game Audio Bundle](https://sonniss.com/gameaudiogdc) 2018/2019. Contributors include PMSFX, Soundopolis, 3maze, Articulated Sounds, Coll Anderson, Matt Script, Studio 23, 2496SoundEffects, Ivo Vicic, Airborne Sound, Eiravaein Works, GainWalkers, UberDuo, The Sound Pack Tree, Sounds Visual, Discover Oregon, Federico Soler Fernández | Sonniss GDC license: royalty-free, commercial use, no attribution required. **Not redistributable as raw sound files**, which is why they're kept out of the public repo. The exact file list is in `tools/licensed_audio_manifest.json`. |

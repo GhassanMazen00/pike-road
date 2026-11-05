@@ -31,9 +31,14 @@ func _ready() -> void:
 	for node in find_children("*", "GeometryInstance3D", true, false):
 		(node as GeometryInstance3D).cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	_audio = AudioStreamPlayer3D.new()
+	_audio.bus = &"SFX"
 	_audio.unit_size = 3.0
-	_audio.position = Vector3(0, 1.0, 0)
+	_audio.volume_db = -6.0
+	_audio.position = Vector3(0, 0.4, 0)
 	add_child(_audio)
+	if switch_sound == null:
+		switch_sound = G.sounds().get_stream("switch")
+	G.power().changed.connect(func(_on: bool) -> void: _apply())
 	_apply()
 
 
@@ -49,17 +54,18 @@ func set_on(on: bool) -> void:
 	is_on = on
 	if switch_sound:
 		_audio.stream = switch_sound
-		_audio.pitch_scale = randf_range(0.96, 1.04)
+		_audio.pitch_scale = randf_range(1.8, 2.0)
 		_audio.play()
 	_apply()
 
 
 func _apply() -> void:
+	var lit: bool = is_on and G.power().on
 	for light in _lights:
-		light.visible = is_on
+		light.visible = lit
 	for path in visible_when_on:
 		var node := get_node_or_null(path) as Node3D
 		if node:
-			node.visible = is_on
+			node.visible = lit
 	if glow_material:
-		glow_material.emission_energy_multiplier = _glow_energy if is_on else 0.0
+		glow_material.emission_energy_multiplier = _glow_energy if lit else 0.0

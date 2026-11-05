@@ -3,11 +3,9 @@ extends CharacterBody3D
 ## First-person controller: walk, run, mouse look, flashlight (F), interact (E),
 ## and footsteps that change with the surface under the player.
 ##
-## Footstep sounds are picked up automatically from
-## res://assets/audio/footsteps/<surface>/ (any .ogg / .wav files).
+## Footstep sounds come from the Sounds library (see scripts/sounds.gd).
 ## A floor reports its surface with the metadata key "surface" ("wood", "carpet", ...).
 
-const FOOTSTEP_ROOT := "res://assets/audio/footsteps/"
 const SURFACE_MASK := 1 | 4  # world + surface layers
 const DEFAULT_SURFACE := "wood"
 
@@ -41,8 +39,8 @@ var _step_distance_accum: float = 0.0
 var _bob_phase: float = 0.0
 var _head_base_height: float = 0.0
 var _focused: Node = null
-var _footstep_sets: Dictionary = {}  # surface -> Array[AudioStream]
 var _last_step: Dictionary = {}  # surface -> last index played
+var _last_surface: String = DEFAULT_SURFACE
 
 
 func _ready() -> void:
@@ -50,7 +48,7 @@ func _ready() -> void:
 	flashlight_pivot.top_level = true
 	flashlight_pivot.global_transform = camera.global_transform
 	flashlight.visible = false
-	_load_footsteps()
+	flashlight_click.stream = G.sounds().get_stream("flashlight_click")
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 
@@ -58,8 +56,8 @@ func _unhandled_input(event: InputEvent) -> void:
 	if not input_enabled or get_tree().paused:
 		return
 	if event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
-		var sens: float = Settings.mouse_sensitivity
-		var dy: float = event.relative.y * (-1.0 if Settings.invert_y else 1.0)
+		var sens: float = G.settings().mouse_sensitivity
+		var dy: float = event.relative.y * (-1.0 if G.settings().invert_y else 1.0)
 		rotate_y(-event.relative.x * sens)
 		_pitch = clampf(_pitch - dy * sens, deg_to_rad(-85.0), deg_to_rad(85.0))
 		head.rotation.x = _pitch
@@ -118,6 +116,8 @@ func _update_steps_and_bob(moved: float, running: bool, delta: float) -> void:
 	var speed := moved / maxf(delta, 0.0001)
 	if on_floor and speed > 0.3:
 		var stride := run_step_distance if running else walk_step_distance
+		if _last_surface == "stairs":
+			stride *= 0.62  # one tread per step
 		_step_distance_accum += moved
 		_bob_phase += moved / stride * PI
 		if _step_distance_accum >= stride:
@@ -132,7 +132,7 @@ func _update_steps_and_bob(moved: float, running: bool, delta: float) -> void:
 
 func _play_footstep(running: bool) -> void:
 	var surface := _surface_below()
-	var sounds: Array = _footstep_sets.get(surface, _footstep_sets.get(DEFAULT_SURFACE, []))
+	var sounds: Array = G.sounds().footsteps(surface)
 	if sounds.is_empty():
 		return
 	var index := randi() % sounds.size()
@@ -140,9 +140,12 @@ func _play_footstep(running: bool) -> void:
 		index = (index + 1) % sounds.size()
 	_last_step[surface] = index
 	footstep_player.stream = sounds[index]
-	footstep_player.pitch_scale = randf_range(0.92, 1.06)
-	footstep_player.volume_db = randf_range(-2.0, 0.0) + (2.0 if running else -1.0)
+	# small random pitch/volume so repeats don't sound mechanical; linoleum is a touch brighter
+	var pitch := randf_range(0.95, 1.04) * (1.08 if surface == "linoleum" else 1.0)
+	footstep_player.pitch_scale = pitch
+	footstep_player.volume_db = randf_range(-2.5, 0.0) + (1.5 if running else -2.0)
 	footstep_player.play()
+	_last_surface = surface
 
 
 func _surface_below() -> String:
@@ -177,18 +180,3 @@ func _update_focus() -> void:
 	hud.set_prompt(prompt)
 
 
-func _load_footsteps() -> void:
-	for entry in ResourceLoader.list_directory(FOOTSTEP_ROOT):
-		if not entry.ends_with("/"):
-			continue
-		var surface := entry.trim_suffix("/")
-		var sounds: Array[AudioStream] = []
-		var dir := FOOTSTEP_ROOT + entry
-		for file in ResourceLoader.list_directory(dir):
-			var ext := file.get_extension().to_lower()
-			if ext in ["ogg", "wav", "mp3"]:
-				var stream := load(dir + file) as AudioStream
-				if stream:
-					sounds.append(stream)
-		if not sounds.is_empty():
-			_footstep_sets[surface] = sounds

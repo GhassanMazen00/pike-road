@@ -11,5 +11,4 @@ albedo_texture = ExtResource("1_diff")
 orm_texture = ExtResource("2_arm")
 normal_enabled = true
 normal_texture = ExtResource("3_nor")
-uv1_scale = Vector3(5.33, 4, 1)
 texture_filter = 5
