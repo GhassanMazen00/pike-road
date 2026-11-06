@@ -1,0 +1,45 @@
+{
+  "name": "walt",
+  "note": "Gas station clerk, 70s, thin. Gray hair, glasses, faded work shirt, old trousers.",
+  "phenotype": {
+    "gender": 1.0,
+    "age": 1.0,
+    "muscle": 0.3,
+    "weight": 0.42,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+      "caucasian": 0.9,
+      "african": 0.05,
+      "asian": 0.05
+    }
+  },
+  "skin_mhmat": "old_caucasian_male/old_caucasian_male.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow004/eyebrow004.mhclo",
+  "eyelashes": "eyelashes01/eyelashes01.mhclo",
+  "hair": "short02/short02.mhclo",
+  "clothes": [
+    "elvs_male_shirt_untucked_bd1/elvs_male_shirt_untucked_bd1.mhclo",
+    "mindfront_male_trousers_1/mindfront_male_trousers_1.mhclo",
+    "toigo_ankle_boots_male/toigo_ankle_boots_male.mhclo",
+    "frankyaye_glasses_library_male/frankyaye_glasses_library_male.mhclo"
+  ],
+  "materials": {
+    "hair/short02/short02.mhclo": "short02/bogdan666_short_02_gray/bogdan666_short_02_gray.mhmat",
+    "eyes/high-poly/high-poly.mhclo": "materials/grey.mhmat"
+  },
+  "tint": {
+    "shirt": [
+      0.3,
+      0.35,
+      0.42
+    ],
+    "trousers": [
+      0.3,
+      0.28,
+      0.25
+    ]
+  },
+  "rig": "mixamo"
+}

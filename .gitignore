@@ -19,3 +19,7 @@ desktop.ini
 # Licensed sounds (Sonniss): allowed in the game, not as raw files in a public repo.
 # Recreate with: python -I tools/fetch_licensed_audio.py && python -I tools/process_audio.py
 /assets/audio/licensed/
+
+# Python caches
+__pycache__/
+*.pyc

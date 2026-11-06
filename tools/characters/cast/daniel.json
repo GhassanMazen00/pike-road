@@ -1,0 +1,17 @@
+{
+  "name": "daniel",
+  "note": "The player, 38. Used for the hands on the steering wheel and in mirrors. Dark flannel shirt.",
+  "phenotype": {"gender": 1.0, "age": 0.6, "muscle": 0.5, "weight": 0.5, "height": 0.55, "proportions": 0.5,
+                "race": {"caucasian": 0.7, "african": 0.1, "asian": 0.2}},
+  "skin_mhmat": "middleage_caucasian_male/middleage_caucasian_male.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow010/eyebrow010.mhclo",
+  "eyelashes": "eyelashes01/eyelashes01.mhclo",
+  "hair": "short04/short04.mhclo",
+  "clothes": ["elvs_male_shirt_untucked_bd1/elvs_male_shirt_untucked_bd1.mhclo",
+              "elvs_jeans_straight_leg/elvs_jeans_straight_leg.mhclo",
+              "toigo_ankle_boots_male/toigo_ankle_boots_male.mhclo"],
+  "materials": {"hair/short04/short04.mhclo": "short04/toigo_short_04_brown/toigo_short_04_brown.mhmat"},
+  "tint": {"shirt": [0.25, 0.28, 0.35]},
+  "rig": "mixamo"
+}

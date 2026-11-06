@@ -1,0 +1,48 @@
+{
+  "name": "bench_man",
+  "note": "The man on the bench outside the gas station. 40s, gaunt, unkempt. Dark hoodie, worn jeans.",
+  "phenotype": {
+    "gender": 1.0,
+    "age": 0.68,
+    "muscle": 0.35,
+    "weight": 0.3,
+    "height": 0.62,
+    "proportions": 0.45,
+    "race": {
+      "caucasian": 0.8,
+      "african": 0.1,
+      "asian": 0.1
+    }
+  },
+  "skin_mhmat": "middleage_caucasian_male/middleage_caucasian_male.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow007/eyebrow007.mhclo",
+  "eyelashes": "eyelashes01/eyelashes01.mhclo",
+  "hair": "cortu_short_messy_hair/cortu_short_messy_hair.mhclo",
+  "clothes": [
+    "elvs_hooded_sweat_jacket1/elvs_hooded_sweat_jacket1.mhclo",
+    "elvs_jeans_straight_leg/elvs_jeans_straight_leg.mhclo",
+    "culturalibre_sneakers/culturalibre_sneakers.mhclo"
+  ],
+  "materials": {
+    "eyes/high-poly/high-poly.mhclo": "materials/ice.mhmat"
+  },
+  "tint": {
+    "hooded": [
+      0.2,
+      0.22,
+      0.2
+    ],
+    "jeans": [
+      0.22,
+      0.24,
+      0.3
+    ],
+    "sneakers": [
+      0.16,
+      0.16,
+      0.17
+    ]
+  },
+  "rig": "mixamo"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lily",
+  "note": "Daniel and Nora's daughter, 7. Braids, pale blue dress, mary jane shoes. MakeHuman age: 0 = 1 yr, 0.1875 = 11 yrs.",
+  "phenotype": {"gender": 0.0, "age": 0.1125, "muscle": 0.4, "weight": 0.45, "height": 0.5, "proportions": 0.5,
+                "race": {"caucasian": 0.85, "african": 0.05, "asian": 0.1}},
+  "skin_mhmat": "young_caucasian_female/young_caucasian_female.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow001/eyebrow001.mhclo",
+  "eyelashes": "eyelashes01/eyelashes01.mhclo",
+  "hair": "braid01/braid01.mhclo",
+  "clothes": ["toigo_shift_dress/toigo_shift_dress.mhclo",
+              "dressupdoc_maryjane1/dressupdoc_maryjane1.mhclo"],
+  "materials": {"eyes/high-poly/high-poly.mhclo": "materials/brown.mhmat",
+                "hair/braid01/braid01.mhclo": "braid01/toigo_braid01_golden/toigo_braid01_golden.mhmat"},
+  "tint": {"dress": [0.62, 0.72, 0.85]},
+  "rig": "mixamo"
+}

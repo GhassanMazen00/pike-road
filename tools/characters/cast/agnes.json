@@ -1,0 +1,34 @@
+{
+  "name": "agnes",
+  "note": "The witch, as the sweet old neighbor. Small, frail, long gray hair, old sweater, long dark skirt.",
+  "phenotype": {
+    "gender": 0.0,
+    "age": 1.0,
+    "muscle": 0.25,
+    "weight": 0.4,
+    "height": 0.3,
+    "proportions": 0.5,
+    "cupsize": 0.4,
+    "firmness": 0.2,
+    "race": {
+      "caucasian": 0.9,
+      "african": 0.05,
+      "asian": 0.05
+    }
+  },
+  "skin_mhmat": "old_caucasian_female/old_caucasian_female.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow002/eyebrow002.mhclo",
+  "eyelashes": "eyelashes02/eyelashes02.mhclo",
+  "hair": "long01/long01.mhclo",
+  "clothes": [
+    "janexx_old_female_sweater/janexx_old_female_sweater.mhclo",
+    "toigo_long_full_skirt/toigo_long_full_skirt.mhclo",
+    "mindfront_shoes_monk_strap_female/mindfront_shoes_monk_strap_female.mhclo"
+  ],
+  "materials": {
+    "hair/long01/long01.mhclo": "long01/toigo_long_01_gray/toigo_long_01_gray.mhmat",
+    "eyes/high-poly/high-poly.mhclo": "materials/lightblue.mhmat"
+  },
+  "rig": "mixamo"
+}

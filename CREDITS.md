@@ -24,6 +24,25 @@ painted_wooden_nightstand, trashbag.
 decrepit_wallpaper, old_wooden_floor_03, white_plaster_02, quatrefoil_jacquard_fabric, weathered_plank_siding, wood_floor_deck,
 forest_leaves_04, old_linoleum_flooring_01, dirty_concrete, plastered_stone_wall, painted_plaster_wall.
 
+## Characters: MakeHuman / MPFB
+
+The cast (`assets/characters/cast/`) is built with [MPFB](https://static.makehumancommunity.org/mpfb.html)
+from `tools/characters/cast/*.json`. Base bodies, skins, eyes, eyebrows, eyelashes, hair styles and hair
+colors are MakeHuman system and community assets under **CC0**.
+
+These clothing assets are **CC-BY** (credit required), from the MakeHuman community asset packs:
+
+| Asset | Author | Pack |
+|---|---|---|
+| Men's untucked button-down shirt, shirt with tie, hooded sweat jacket, straight-leg jeans | Elvaerwyn (elvs) | shirts02, pants02 |
+| Men's trousers 1 and 2, women's monk-strap shoes | Mindfront | pants02, shoes02 |
+| Old female sweater | Janexx | shirts02 |
+| Mary Jane shoes | DressUpDoc | shoes02 |
+| Women's tight jeans | punkduck | pants02 |
+
+CC0 clothing used (credited anyway): Toigo (dress, skirt, sweater, ankle boots, hair colors), Culturalibre (boots),
+Frankyaye (glasses), Cortu (messy hair), Dariush086 and Bogdan666 (hair colors).
+
 ## Audio
 
 | Sound | Source | License |

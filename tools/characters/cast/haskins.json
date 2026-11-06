@@ -1,0 +1,49 @@
+{
+  "name": "haskins",
+  "note": "County deputy, mid 50s, heavy-set. Tan uniform shirt and tie, dark trousers, boots.",
+  "phenotype": {
+    "gender": 1.0,
+    "age": 0.78,
+    "muscle": 0.55,
+    "weight": 0.68,
+    "height": 0.6,
+    "proportions": 0.5,
+    "race": {
+      "caucasian": 0.85,
+      "african": 0.1,
+      "asian": 0.05
+    }
+  },
+  "skin_mhmat": "middleage_caucasian_male/middleage_caucasian_male.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow010/eyebrow010.mhclo",
+  "eyelashes": "eyelashes01/eyelashes01.mhclo",
+  "hair": "short04/short04.mhclo",
+  "clothes": [
+    "elvs_male_shirt_tie_tucked1/elvs_male_shirt_tie_tucked1.mhclo",
+    "mindfront_male_trousers_2/mindfront_male_trousers_2.mhclo",
+    "toigo_ankle_boots_male/toigo_ankle_boots_male.mhclo"
+  ],
+  "materials": {
+    "hair/short04/short04.mhclo": "short04/toigo_short_04_gray/toigo_short_04_gray.mhmat",
+    "eyes/high-poly/high-poly.mhclo": "materials/brown.mhmat"
+  },
+  "tint": {
+    "shirt": [
+      0.74,
+      0.62,
+      0.43
+    ],
+    "trousers": [
+      0.17,
+      0.18,
+      0.13
+    ]
+  },
+  "rig": "mixamo",
+  "accessories": [
+    "deputy_hat",
+    "deputy_badge",
+    "duty_belt"
+  ]
+}

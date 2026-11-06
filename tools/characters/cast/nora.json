@@ -1,0 +1,35 @@
+{
+  "name": "nora",
+  "note": "Daniel's wife, mid 30s. Ponytail, knit sweater, jeans.",
+  "phenotype": {
+    "gender": 0.0,
+    "age": 0.45,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+      "caucasian": 0.8,
+      "african": 0.05,
+      "asian": 0.15
+    }
+  },
+  "skin_mhmat": "young_caucasian_female/young_caucasian_female.mhmat",
+  "eyes": "high-poly/high-poly.mhclo",
+  "eyebrows": "eyebrow002/eyebrow002.mhclo",
+  "eyelashes": "eyelashes02/eyelashes02.mhclo",
+  "hair": "ponytail01/ponytail01.mhclo",
+  "clothes": [
+    "toigo_fisherman_sweater/toigo_fisherman_sweater.mhclo",
+    "punkduck_female_tight_jeans/punkduck_female_tight_jeans.mhclo",
+    "toigo_ankle_boots_female/toigo_ankle_boots_female.mhclo"
+  ],
+  "materials": {
+    "hair/ponytail01/ponytail01.mhclo": "ponytail01/dariush086_ponytail01_brown/dariush086_ponytail01_brown.mhmat",
+    "eyes/high-poly/high-poly.mhclo": "materials/green.mhmat"
+  },
+  "rig": "mixamo",
+  "offset": {
+    "sweater": 0.01
+  }
+}
