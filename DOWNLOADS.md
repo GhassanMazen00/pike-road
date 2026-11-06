@@ -1,53 +1,50 @@
 # Getting the assets
 
-## For you to download now: the opening (Sketchfab, free account)
+All downloads are done. Both lists below are kept as a record of what came from where.
 
-1. Sign in at sketchfab.com (a free account works).
-2. Open each link and click **Download 3D Model**, then pick **glTF** (the "Autoconverted format" row). It downloads a `.zip`.
-3. Unzip each into its own folder under `C:\pike road\assets\sketchfab\` using the folder name below
-   (for example `C:\pike road\assets\sketchfab\riverside88\scene.gltf`).
-4. Tell me when they're in. I'll check every file, fix scale and materials, and credit each author.
+## Sketchfab models (CC-BY 4.0, in `assets/sketchfab/<folder>/`)
 
-All of these are **CC Attribution**: free for a commercial Steam game, as long as the credits name the author.
-I'll handle the credits.
+Each folder holds the glTF export plus its `license.txt`. Credit lines are in CREDITS.md.
 
-| # | What | Link | Folder name | Author |
-|---|---|---|---|---|
-| 1 | **The car**: 1980s American sedan with an interior ("Riverside '88") | https://sketchfab.com/3d-models/riverside-88-low-poly-model-8509a7f82665442592627940b7a1cfab | `riverside88` | Daniel Zhabotinsky |
-| 2 | **Pine tree** (the main forest tree, light enough for thousands) | https://sketchfab.com/3d-models/pine-tree-game-ready-dc3fbd9205cf4027a4455d1f415e0478 | `pine_tree` | Wenedi |
-| 3 | **Forest pack** (more conifers, bushes and rocks for variety) | https://sketchfab.com/3d-models/coniferous-forest-assets-pack-240ce9cf0ad3474f809a59f9446e63cd | `forest_pack` | Dari |
-| 4 | **The deer** (realistic white-tailed buck) | https://sketchfab.com/3d-models/realistic-whitetailed-deer-free-commercial-use-d8192bb6909042a0b8ba08774358a8f1 | `deer` | avatarka |
-| 5 | **Gas station building** (old roadside station with canopy) | https://sketchfab.com/3d-models/old-gas-station-ad5f6816d35a4944a034b80443a62cfa | `gas_station` | Wardster |
-| 6 | **Gas pump** (vintage) | https://sketchfab.com/3d-models/vintage-gas-pump-0096f206ce1a4381bea58f9f94fc6b1c | `gas_pump` | Rescue3D Assets |
-| 7 | **Drinks cooler** for the store | https://sketchfab.com/3d-models/commercial-fridge-2174e1e4f1f24f1a95aa110ee060f473 | `store_fridge` | Sean Thomas |
-| 8 | **Cash register** | https://sketchfab.com/3d-models/old-cash-register-pbr-cfdc8b3756fa4bb4b7c26d8ac92fd1bc | `cash_register` | Li.Wenzhao |
-| 9 | **Store shelves and products** (big pack; I'll use only parts) | https://sketchfab.com/3d-models/multi-supermarket-assetpack-vol1-de856c67c9fc4880978f375f987c27bd | `supermarket_pack` | multikunst |
+| What | Folder | Author | Note |
+|---|---|---|---|
+| The car, 1980s sedan with interior ("Riverside '88") | `riverside88` | Daniel Zhabotinsky | 4.9 m, correct scale |
+| Pine tree (main forest tree) | `pine_tree` | Oskar "K1TT3N" Adamczyk | imports 75 m tall, scale x0.2 |
+| Coniferous forest pack (conifers, dead trees, bushes, rocks) | `forest_pack` | Dari | |
+| Realistic white-tailed deer | `deer` | avatarka | imports huge, scale x0.015 |
+| Old gas station with canopy | `gas_station` | Wardster | 13 x 15 m |
+| Vintage gas pump | `gas_pump` | Rescue3D Assets | 1.83 m |
+| Commercial drinks fridge | `store_fridge` | Sean Thomas | 2.18 m |
+| Old cash register | `cash_register` | Li.Wenzhao | scale x0.2 |
+| Supermarket goods pack (water, cereal, pallets, sale signs; no shelves) | `supermarket_pack` | multikunst | |
 
-Things I'll get myself (CC0, no login): the asphalt and dirt-road textures, road signs, the mailbox and the payphone (Poly Haven).
+## Mixamo animations (in `assets/animations/mixamo/`)
 
-## Animations (Mixamo, free Adobe account)
+Downloaded on the X Bot, **without skin**, FBX, 30 fps, no keyframe reduction, **in place** for walks, runs
+and the crawl. Our MPFB cast uses Mixamo's bone names, so no retargeting is needed.
 
-The cast is already built and uses Mixamo's own skeleton, so **you don't upload anything**. Just download
-animations and they play on every character.
+`godot --headless --path . --script res://tools/animations/build_library.gd` packs them into
+`assets/animations/mixamo_library.res`: it drops tracks for the 13 finger/toe-end bones our rig lacks and
+sets loop modes. To play one on a character, add an AnimationPlayer next to the character's `Skeleton3D`
+(root = the node holding it), load the library, and set `Skeleton3D.motion_scale` to
+character hips height / the library's `xbot_hips_height` meta, so children and short characters keep their
+feet on the floor.
 
-1. Go to mixamo.com and sign in. Leave the default character (Y Bot) selected.
-2. For each animation below: search the name, click the best match, then **Download** with these settings:
-   **Format: FBX Binary (.fbx)**, **Skin: Without Skin**, **Frames per second: 30**, **Keyframe reduction: none**.
-   If an animation shows an **"In Place"** checkbox, tick it.
-3. Save every file into `C:\pike road\assets\animations\mixamo\` and keep Mixamo's file name.
-
-If a name isn't found exactly, take the closest match. Tell me which ones you picked.
-
-| For | Search for |
-|---|---|
-| Everyone | `Idle`, `Breathing Idle`, `Walking`, `Running`, `Talking`, `Turn` (left and right) |
-| Walt (behind the counter) | `Bored`, `Look Around`, `Standing Greeting`, `Nervously Look Around` |
-| Haskins | `Drinking` (his coffee), `Talking On Phone`, `Standing Arguing` |
-| Bench man | `Sitting Idle`, `Stand Up`, `Sad Idle` |
-| Agnes | `Old Man Idle`, `Old Woman Walk` (or any slow walk), `Waving` |
-| Lily | `Sad Idle`, `Crouch Idle`, `Zombie Crawl`, `Mutant Run`, `Standing Clap` |
-| Daniel (hands) | `Driving`, `Reaching Out`, `Opening Door` |
-| Scares | `Zombie Attack`, `Mutant Swiping`, `Zombie Scream` |
+| File | Mixamo name | Use |
+|---|---|---|
+| `idle`, `breathing_idle`, `weight_shift_idle` | Idle, Breathing Idle, Weight Shift | everyone standing |
+| `walking`, `careful_walk`, `female_walk`, `old_man_walk` | Male Standard Walk, Male Careful Walk, Female Walk, Old Man Walk | walking |
+| `flashlight_walk` | Standing Torch Walk Forward | walking with a light held up |
+| `sneak_walk`, `running`, `left_turn`, `right_turn` | Sneak Walk, Running, Left Turn, Right Turn | |
+| `talking_two_hands`, `talking_chat`, `arguing`, `phone_call` | Talking, Talking At Watercooler, Standing Arguing, Talking On A Cell Phone | conversations |
+| `bored`, `looking_around`, `nervous_look_around`, `standing_greeting` | Bored, Looking Around, Nervously Look Around, Standing Greeting | Walt |
+| `drinking` | Drinking | Haskins' coffee |
+| `sitting_idle`, `sit_to_stand`, `sad_idle` | Sitting Idle, Sit To Stand, Sad Idle | bench man |
+| `old_man_idle`, `waving` | Old Man Idle, Waving | Agnes |
+| `crouch_idle`, `zombie_crawl`, `mutant_run`, `standing_clap` | Crouching Idle, Zombie Crawl, Mutant Run, Standing Clap | Lily |
+| `zombie_walk`, `creeping_walk` | Zombie Walking, Creeping Zombie Walk | Lily, late game |
+| `driving`, `honking_horn`, `reaching_out`, `opening_door` | Driving, Honking Horn, Reaching Out, Opening Door Inwards | Daniel's arms |
+| `zombie_attack`, `mutant_swiping`, `zombie_scream` | Zombie Attack, Mutant Swiping, Zombie Scream | scares |
 
 ## On a new machine (everything Claude downloaded)
 

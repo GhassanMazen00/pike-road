@@ -19,6 +19,20 @@ wooden_crate_01, Barrel_02, metal_toolbox, hatchet, crowbar_01, wooden_candlesti
 wooden_bookshelf_worn, book_encyclopedia_set_01, wooden_bucket_01, rusted_spade_01, Lantern_01, security_light,
 painted_wooden_nightstand, trashbag.
 
+## Models: Sketchfab (CC-BY 4.0)
+
+Folder: `assets/sketchfab/<name>/` (each has its own `license.txt`).
+
+- This work is based on "Old Cash Register_PBR" (https://sketchfab.com/3d-models/old-cash-register-pbr-cfdc8b3756fa4bb4b7c26d8ac92fd1bc) by Li.Wenzhao (https://sketchfab.com/Li.Wenzhao) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Realistic Whitetailed deer / free commercial use" (https://sketchfab.com/3d-models/realistic-whitetailed-deer-free-commercial-use-d8192bb6909042a0b8ba08774358a8f1) by avatarka (https://sketchfab.com/gregsometimes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Coniferous Forest Assets Pack" (https://sketchfab.com/3d-models/coniferous-forest-assets-pack-240ce9cf0ad3474f809a59f9446e63cd) by Dari (https://sketchfab.com/dariiiii) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Vintage Gas Pump" (https://sketchfab.com/3d-models/vintage-gas-pump-0096f206ce1a4381bea58f9f94fc6b1c) by Rescue3D Assets (https://sketchfab.com/rescue3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "old Gas Station" (https://sketchfab.com/3d-models/old-gas-station-ad5f6816d35a4944a034b80443a62cfa) by Wardster (https://sketchfab.com/WardsterSAW) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Pine Tree [Game-ready]" (https://sketchfab.com/3d-models/pine-tree-game-ready-dc3fbd9205cf4027a4455d1f415e0478) by Oskar "K1TT3N" Adamczyk (https://sketchfab.com/K1TT3N) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Riverside '88 - Low poly model" (https://sketchfab.com/3d-models/riverside-88-low-poly-model-8509a7f82665442592627940b7a1cfab) by Daniel Zhabotinsky (https://sketchfab.com/DanielZhabotinsky) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Commercial Fridge" (https://sketchfab.com/3d-models/commercial-fridge-2174e1e4f1f24f1a95aa110ee060f473) by Sean Thomas (https://sketchfab.com/foon.) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+- This work is based on "Multi_Supermarket_Assetpack_VOL.1" (https://sketchfab.com/3d-models/multi-supermarket-assetpack-vol1-de856c67c9fc4880978f375f987c27bd) by multikunst (https://sketchfab.com/multikunst) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+
 ## Textures: Poly Haven (CC0)
 
 decrepit_wallpaper, old_wooden_floor_03, white_plaster_02, quatrefoil_jacquard_fabric, weathered_plank_siding, wood_floor_deck,
@@ -42,6 +56,11 @@ These clothing assets are **CC-BY** (credit required), from the MakeHuman commun
 
 CC0 clothing used (credited anyway): Toigo (dress, skirt, sweater, ankle boots, hair colors), Culturalibre (boots),
 Frankyaye (glasses), Cortu (messy hair), Dariush086 and Bogdan666 (hair colors).
+
+## Animations: Mixamo
+
+Character animations in `assets/animations/mixamo/` are from [Mixamo](https://www.mixamo.com) by Adobe,
+free to use royalty-free in commercial games (no credit required; credited anyway). The full list is in DOWNLOADS.md.
 
 ## Audio
 

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Cash Register_PBR
+* source:	https://sketchfab.com/3d-models/old-cash-register-pbr-cfdc8b3756fa4bb4b7c26d8ac92fd1bc
+* author:	Li.Wenzhao (https://sketchfab.com/Li.Wenzhao)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Cash Register_PBR" (https://sketchfab.com/3d-models/old-cash-register-pbr-cfdc8b3756fa4bb4b7c26d8ac92fd1bc) by Li.Wenzhao (https://sketchfab.com/Li.Wenzhao) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	old Gas Station
+* source:	https://sketchfab.com/3d-models/old-gas-station-ad5f6816d35a4944a034b80443a62cfa
+* author:	Wardster (https://sketchfab.com/WardsterSAW)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "old Gas Station" (https://sketchfab.com/3d-models/old-gas-station-ad5f6816d35a4944a034b80443a62cfa) by Wardster (https://sketchfab.com/WardsterSAW) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

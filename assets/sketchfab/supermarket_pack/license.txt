@@ -1,0 +1,11 @@
+Model Information:
+* title:	Multi_Supermarket_Assetpack_VOL.1
+* source:	https://sketchfab.com/3d-models/multi-supermarket-assetpack-vol1-de856c67c9fc4880978f375f987c27bd
+* author:	multikunst (https://sketchfab.com/multikunst)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Multi_Supermarket_Assetpack_VOL.1" (https://sketchfab.com/3d-models/multi-supermarket-assetpack-vol1-de856c67c9fc4880978f375f987c27bd) by multikunst (https://sketchfab.com/multikunst) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
